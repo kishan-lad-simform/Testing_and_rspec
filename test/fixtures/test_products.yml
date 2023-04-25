@@ -1,0 +1,12 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_name: Product1
+  price: 100
+  description: Desc1
+
+two:
+  product_name: Product2
+  price: 200
+  description: Desc2
+
