@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  devise_for :users
+  resources :test_products 
+  get '/all_products', to: 'test_products#all_products'
+  root 'test_products#index'
 end
